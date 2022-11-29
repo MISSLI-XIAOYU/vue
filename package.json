@@ -8,7 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@lixiaoyu1/pig-ui": "^2.0.0",
     "core-js": "^3.6.5",
+    "echarts4": "npm:echarts@^4.9.0",
+    "element-ui": "^2.15.9",
+    "ol": "^7.1.0",
+    "ol-echarts": "^2.0.6",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -32,7 +37,14 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "generator-star-spacing": "off",
+      "no-tabs": "off",
+      "no-unused-vars": "off",
+      "no-console": "off",
+      "no-irregular-whitespace": "off",
+      "no-debugger": "off"
+    }
   },
   "browserslist": [
     "> 1%",
